@@ -13,9 +13,9 @@ namespace OOPAssignment.Test
             // Arrange
             Surface surface = new(width: 5, height: 5);
 
-            CarInfo carInfo1 = new CarInfo(Guid.NewGuid(), new Coordinates(0, 0));
+            CarInfo carInfo1 = new (Guid.NewGuid(), new Coordinates(0, 0));
 
-            CarInfo carInfo2 = new CarInfo(Guid.NewGuid(), new Coordinates(1, 1));
+            CarInfo carInfo2 = new (Guid.NewGuid(), new Coordinates(1, 1));
 
             // Act
             surface.Update(carInfo1);
@@ -34,9 +34,9 @@ namespace OOPAssignment.Test
             // Arrange
             Surface surface = new(width: 5, height: 5);
 
-            CarInfo carInfo1 = new CarInfo(Guid.NewGuid(), new Coordinates(0, 0));
+            CarInfo carInfo1 = new (Guid.NewGuid(), new Coordinates(0, 0));
 
-            CarInfo carInfo2 = new CarInfo(Guid.NewGuid(), new Coordinates(1, 1));
+            CarInfo carInfo2 = new (Guid.NewGuid(), new Coordinates(1, 1));
 
             // Act
             surface.Update(carInfo1);

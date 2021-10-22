@@ -96,8 +96,8 @@
 		- long Height
 		- private readonly List<CarInfo> ObservableCars
 		- Constructor(long width, long height)
-		- bool IsCoordinatesInBounds(Coordinates coordinates)
-		- bool IsCoordinatesEmpty(Coordinates coordinates)
+		- 
+		oordinatesEmpty(Coordinates coordinates)
 		- void Update(CarInfo provider)
 		- List<CarInfo> GetObservables()
 	
